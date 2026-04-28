@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="relative z-10 pt-[220px] pb-24 px-6 min-h-screen flex flex-col items-center justify-center">
+    <section className="relative z-10 pt-[180px] pb-24 px-6 min-h-screen flex flex-col items-center justify-center">
       {/* Announcement badge */}
       <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-forge-surfaceAlt/40 backdrop-blur-[17px] border border-forge-border shadow-[0_0_20px_rgba(249,115,22,0.15)] mb-8 hover:border-forge-borderStrong transition-colors cursor-pointer group">
         <span className="relative flex h-2 w-2">

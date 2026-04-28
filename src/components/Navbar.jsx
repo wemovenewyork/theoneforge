@@ -11,7 +11,7 @@ export default function Navbar() {
   const { pathname } = useLocation()
 
   return (
-    <nav className="fixed top-[32px] left-0 right-0 z-40 px-6 py-4 transition-all duration-300">
+    <nav className="fixed top-0 left-0 right-0 z-40 px-6 py-4 transition-all duration-300">
       <div className="max-w-7xl mx-auto glass-panel rounded-2xl px-6 py-3 flex items-center justify-between shadow-[0_4px_30px_rgba(0,0,0,0.5)]">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 cursor-pointer group">

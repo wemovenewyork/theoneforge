@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css'
-import TopBanner from './components/TopBanner'
 import Navbar from './components/Navbar'
 
 // Home page sections
@@ -46,7 +45,6 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className="bg-forge-bg text-forge-text font-sans antialiased overflow-x-hidden">
-        <TopBanner />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

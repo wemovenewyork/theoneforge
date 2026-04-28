@@ -65,7 +65,7 @@ export default function Docs() {
   return (
     <div className="bg-forge-bg text-forge-text font-sans antialiased min-h-screen flex flex-col">
       {/* Top bar */}
-      <div className="border-b border-forge-border/40 pt-[88px]">
+      <div className="border-b border-forge-border/40 pt-[72px]">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <h1 className="text-lg font-semibold">Documentation</h1>
           <div className="flex items-center gap-3">

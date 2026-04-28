@@ -88,7 +88,7 @@ export default function Pricing() {
   return (
     <div className="bg-forge-bg text-forge-text font-sans antialiased min-h-screen">
       {/* Hero */}
-      <section className="relative pt-40 pb-20 px-6 text-center overflow-hidden">
+      <section className="relative pt-32 pb-20 px-6 text-center overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-gradient-radial from-forge-secondary/10 to-transparent blur-[80px] rounded-full pointer-events-none" />
         <div className="relative z-10">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-forge-surfaceAlt/60 border border-forge-border mb-8 text-sm text-forge-textSec">
