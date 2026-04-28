@@ -9,7 +9,7 @@ const cards = [
     iconShadow: 'shadow-[0_0_15px_rgba(249,115,22,0.1)]',
     gradientFrom: 'from-forge-primary/10',
     title: 'Founders',
-    desc: 'Go from idea to MVP in days, not months. Focus on product-market fit while Forge handles the boilerplate, deployments, and database schemas.',
+    desc: 'Move features through your repo without senior-engineer rates. Forge drafts the plan, writes the code, and runs the checks — you approve before anything ships.',
   },
   {
     icon: (
@@ -21,7 +21,7 @@ const cards = [
     iconShadow: 'shadow-[0_0_15px_rgba(245,158,11,0.1)]',
     gradientFrom: 'from-forge-secondary/10',
     title: 'Agencies',
-    desc: "Multiply your team's output. Deliver high-quality, scalable client projects faster. Use natural language to iterate on client feedback instantly.",
+    desc: 'Turn client tickets into reviewed merge requests. Forge handles the implementation; your team handles the relationship. Every change shipped under your team\'s approval.',
   },
   {
     icon: (
@@ -33,7 +33,7 @@ const cards = [
     iconShadow: 'shadow-[0_0_15px_rgba(251,191,36,0.1)]',
     gradientFrom: 'from-[#FBBF24]/10',
     title: 'Engineering Teams',
-    desc: 'Integrate with your existing workflows. Generate PRs, manage complex DAG deployments, and maintain enterprise-grade code consistency.',
+    desc: 'Move backlog items into the codebase without context-switching senior engineers. Forge respects your conventions, runs your checks, and lands as a normal merge request your team can review.',
   },
 ]
 
@@ -42,7 +42,7 @@ export default function AudienceSection() {
     <section className="relative z-10 py-24 px-6 max-w-7xl mx-auto border-t border-forge-border/50">
       <div className="mb-12 text-center">
         <h2 className="text-3xl font-bold mb-4">Built for those who build</h2>
-        <p className="text-forge-textSec">The intelligence to scale your ideas, whoever you are.</p>
+        <p className="text-forge-textSec">Three audiences. One trusted workflow.</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {cards.map((card) => (

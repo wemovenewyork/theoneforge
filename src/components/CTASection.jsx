@@ -4,8 +4,8 @@ export default function CTASection() {
       <div className="glass-panel rounded-3xl p-10 flex flex-col md:flex-row items-center justify-between border-forge-primary/30 shadow-[0_0_50px_rgba(249,115,22,0.1)] hover:shadow-[0_0_70px_rgba(249,115,22,0.15)] transition-shadow duration-500 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-forge-primary/5 to-transparent z-0"></div>
         <div className="relative z-10 text-center md:text-left mb-8 md:mb-0">
-          <h3 className="text-3xl font-bold mb-3">Ready to ignite your next project?</h3>
-          <p className="text-forge-textSec text-lg">Pay per project from <span className="text-forge-text font-semibold">$1,500</span>, or scale with a team plan.</p>
+          <h3 className="text-3xl font-bold mb-3">Run your first Forge build.</h3>
+          <p className="text-forge-textSec text-lg">Project pricing from <span className="text-forge-text font-semibold">$1,500</span>. Team plans for higher volume.</p>
         </div>
         <div className="relative z-10 flex flex-col sm:flex-row gap-4 w-full md:w-auto">
           <button className="px-8 py-3.5 rounded-xl border border-forge-border hover:bg-forge-surface hover:text-forge-text text-forge-textSec transition-colors font-medium text-center">
